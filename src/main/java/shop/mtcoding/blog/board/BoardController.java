@@ -16,6 +16,7 @@ import java.util.List;
 
 @RequiredArgsConstructor // final이 붙은 친구들의 생성자를 만들어줘
 @RestController // new BoardController(IoC에서 BoardRepository를 찾아서 주입) -> IoC 컨테이너 등록
+
 public class BoardController {
 
     // CICD 두번째
